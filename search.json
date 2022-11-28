@@ -1,10 +1,52 @@
 [
   {
+    "objectID": "about/AboutTemplate.html",
+    "href": "about/AboutTemplate.html",
+    "title": "Mekhala Kumar",
+    "section": "",
+    "text": "I studied at FLAME University where I did an integrated program, earning a Bachelor’s degree and Postgraduate Diploma. My major was Applied Mathematics and minor was Economics. Through my courses, I also had programming experience in Java, Python, R and STATA and visualisation experience in Google Data Studio and Tableau.\nMoreover, I interned at the WageIndicator Foundation for two years, as an intern in Data Visualisation and Analysis team for a year and then as a co-manager of the same team in the following year."
+  },
+  {
+    "objectID": "about/AboutTemplate.html#r-experience",
+    "href": "about/AboutTemplate.html#r-experience",
+    "title": "Mekhala Kumar",
+    "section": "R experience",
+    "text": "R experience\nI attended a two week R Workshop at FLAME University where we learnt about operations in R and how to handle datasets. Additionally, I utilised R for statistical analysis in a few courses at FLAME University ."
+  },
+  {
+    "objectID": "about/AboutTemplate.html#research-interests",
+    "href": "about/AboutTemplate.html#research-interests",
+    "title": "Mekhala Kumar",
+    "section": "Research interests",
+    "text": "Research interests\nMigration, Gender Economics, Social Justice"
+  },
+  {
+    "objectID": "about/AboutTemplate.html#hometown",
+    "href": "about/AboutTemplate.html#hometown",
+    "title": "Mekhala Kumar",
+    "section": "Hometown",
+    "text": "Hometown\nBengaluru"
+  },
+  {
+    "objectID": "about/AboutTemplate.html#hobbies",
+    "href": "about/AboutTemplate.html#hobbies",
+    "title": "Mekhala Kumar",
+    "section": "Hobbies",
+    "text": "Hobbies\nI enjoy practising Karate, singing, swimming and reading books."
+  },
+  {
+    "objectID": "about/AboutTemplate.html#fun-fact",
+    "href": "about/AboutTemplate.html#fun-fact",
+    "title": "Mekhala Kumar",
+    "section": "Fun fact",
+    "text": "Fun fact\nI have made a few parodies, they’re on YouTube."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Contributor",
     "section": "",
-    "text": "No matching items"
+    "text": "Mekhala Kumar\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -159,48 +201,6 @@
     "title": "Reasons for Migration in Bangalore (2011)",
     "section": "References",
     "text": "References\n\nBhardwaj, A., & Batra, S. (2022, July 26). No census 2021 in 2022 either - govt ‘puts exercise on hold, timeframe not yet decided’.ThePrint.https://theprint.in/india/no-census-2021-in-2022-either-govt-puts-exercise-on-hold-timeframe-not-yet-decided/1055772/\n\nGovernment of India. (n.d.).Drop-in-article on census - no.8 (migration).\nhttps://censusindia.gov.in/nada/index.php/catalog/40447\n\nIyer, M. (2020, June 10). Migration in India and the impact of the lockdown on migrants. PRS Legislative Research. https://prsindia.org/theprsblog/migration-in-india-and-the-impact-of-the-lockdown-on-migrants\nKumar, M. (2022).Tracing more than a century of migration to major cities of India from the Census records.[Unpublished postgraduate diploma dissertation]. FLAME University.\nMenon N. (2012). Seeing like a feminist. Published by Zubaan in collaboration with Penguin Books.\nMinistry of Housing and Urban Poverty Alleviation. (2017). Report of the Working Group on Migration. https://mohua.gov.in/upload/uploadfiles/files/1566.pdf\nOffice of the Registrar General India. (2021). A-01: Number of villages, towns, households, population and area (India, states/UTs, districts and Sub-districts) - 2011. \n[Karnataka]. https://censusindia.gov.in/census.website/data/census-tables\nOffice of the Registrar General India. (2021). D-03: Migrants within the State/UT by place of last residence, duration of residence and reason of migration - 2011.\n[Karnataka]. https://censusindia.gov.in/census.website/data/census-tables\nR Core Team. (2022). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL http://www.R-project.org/.\nWickham, H., & Grolemund, G. (2016). R for data science: Visualize, model, transform, tidy, and import data. OReilly Media."
-  },
-  {
-    "objectID": "templates/AboutTemplate.html",
-    "href": "templates/AboutTemplate.html",
-    "title": "Mekhala Kumar",
-    "section": "",
-    "text": "I studied at FLAME University where I did an integrated program, earning a Bachelor’s degree and Postgraduate Diploma. My major was Applied Mathematics and minor was Economics. Through my courses, I also had programming experience in Java, Python, R and STATA and visualisation experience in Google Data Studio and Tableau.\nMoreover, I interned at the WageIndicator Foundation for two years, as an intern in Data Visualisation and Analysis team for a year and then as a co-manager of the same team in the following year."
-  },
-  {
-    "objectID": "templates/AboutTemplate.html#r-experience",
-    "href": "templates/AboutTemplate.html#r-experience",
-    "title": "Mekhala Kumar",
-    "section": "R experience",
-    "text": "R experience\nI attended a two week R Workshop at FLAME University where we learnt about operations in R and how to handle datasets. Additionally, I utilised R for statistical analysis in a few courses at FLAME University ."
-  },
-  {
-    "objectID": "templates/AboutTemplate.html#research-interests",
-    "href": "templates/AboutTemplate.html#research-interests",
-    "title": "Mekhala Kumar",
-    "section": "Research interests",
-    "text": "Research interests\nMigration, Gender Economics, Social Justice"
-  },
-  {
-    "objectID": "templates/AboutTemplate.html#hometown",
-    "href": "templates/AboutTemplate.html#hometown",
-    "title": "Mekhala Kumar",
-    "section": "Hometown",
-    "text": "Hometown\nBengaluru"
-  },
-  {
-    "objectID": "templates/AboutTemplate.html#hobbies",
-    "href": "templates/AboutTemplate.html#hobbies",
-    "title": "Mekhala Kumar",
-    "section": "Hobbies",
-    "text": "Hobbies\nI enjoy practising Karate, singing, swimming and reading books."
-  },
-  {
-    "objectID": "templates/AboutTemplate.html#fun-fact",
-    "href": "templates/AboutTemplate.html#fun-fact",
-    "title": "Mekhala Kumar",
-    "section": "Fun fact",
-    "text": "Fun fact\nI have made a few parodies, they’re on YouTube."
   },
   {
     "objectID": "templates/PostTemplate.html",
