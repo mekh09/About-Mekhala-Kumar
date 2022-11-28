@@ -2,8 +2,8 @@ project:
   type: website
 
 website:
-  title: ""
-  site-url: 
+  title: "Mekhala Kumar"
+  site-url: https://github.com/mekh09/about-me
   twitter-card:
     creator: "@UMassDACSS"
     site: "@UMassDACSS"
@@ -12,9 +12,9 @@ website:
     background: "#881c1c"
     logo: images/UMass White Wordmark Horiz.png
     right:
-      - text: "August 2022 Posts"
-        href: https://dacss.github.io/DACSS_601_August2022_v2
-      - text: "Contributors"
+      - text: "My work"
+        href: https://mekh09.github.io/About-Mekhala-Kumar/
+      - text: "About me"
         file: about.qmd
       - href: https://umass.edu/sbs/dacss
         text: "DACSS"

@@ -1,10 +1,10 @@
 ---
-title: "Contributors"
+title: "Contributor"
 listing:
   type: grid
   contents: about
   fields: [image, title]
   sort: "title"
 ---
-
-Find out more about our DACSS students who contributed to the blog.
+ 
+ Here is my background. 
