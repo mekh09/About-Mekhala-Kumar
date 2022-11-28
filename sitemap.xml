@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://github.com/mekh09/about-me/about.html</loc>
-    <lastmod>2022-10-18T21:09:44.850Z</lastmod>
+    <lastmod>2022-11-28T17:31:15.057Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/mekh09/about-me/index.html</loc>
-    <lastmod>2022-10-18T21:09:45.772Z</lastmod>
+    <lastmod>2022-11-28T17:31:15.894Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/mekh09/about-me/posts/Mekhala Final.html</loc>
+    <lastmod>2022-11-28T17:31:21.403Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/mekh09/about-me/templates/AboutTemplate.html</loc>
-    <lastmod>2022-10-18T21:09:46.717Z</lastmod>
+    <lastmod>2022-11-28T17:31:23.548Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/mekh09/about-me/templates/PostTemplate.html</loc>
-    <lastmod>2022-10-18T21:09:52.039Z</lastmod>
+    <lastmod>2022-11-28T17:31:28.257Z</lastmod>
   </url>
 </urlset>
