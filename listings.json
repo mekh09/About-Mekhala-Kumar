@@ -2,13 +2,13 @@
   {
     "listing": "/about.html",
     "items": [
-      "/about/AboutTemplate.html"
+      "/posts/Mekhala Final.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/posts/Mekhala Final.html"
+      "/about/AboutTemplate.html"
     ]
   }
 ]
