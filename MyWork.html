@@ -23,24 +23,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/DACSS_Round_Network.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/DACSS_Round_Network.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,26 +63,55 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <meta name="twitter:title" content="Mekhala Kumar">
-<meta name="twitter:description" content="I studied at FLAME University where I did an integrated program, earning a Bachelor’s degree and Postgraduate Diploma. My major was Applied Mathematics and minor was Economics.">
-<meta name="twitter:image" content="https://github.com/mekh09/about-me/about\images\MekhalaKumar.jpeg">
+<meta name="twitter:description" content="Here are some projects I have worked on.">
 <meta name="twitter:creator" content="@UMassDACSS">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/UMass White Wordmark Horiz.png" alt="" class="navbar-logo">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/UMass White Wordmark Horiz.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Mekhala Kumar</span>
     </a>
   </div>
@@ -89,10 +121,10 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">About Me</a>
+    <a class="nav-link" href="./index.html">About Me</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../MyWork.html">My Work</a>
+    <a class="nav-link active" href="./MyWork.html" aria-current="page">My Work</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://github.com/mekh09">GitHub</a>
@@ -113,59 +145,81 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Bangalore">Bangalore <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Final">Final <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Migration">Migration <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Reasons for Migration">Reasons for Migration <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Mekhala Kumar</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+    
   </div>
-</header> <div class="about-links">
-  <a href="https://github.com/mekh09" class="about-link">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<section id="educationwork" class="level2">
-<h2 data-anchor-id="educationwork">Education/Work</h2>
-<p>I studied at FLAME University where I did an integrated program, earning a Bachelor’s degree and Postgraduate Diploma. My major was Applied Mathematics and minor was Economics. Through my courses, I also had programming experience in Java, Python, R and STATA and visualisation experience in Google Data Studio and Tableau.<br>
-Moreover, I interned at the WageIndicator Foundation for two years, as an intern in Data Visualisation and Analysis team for a year and then as a co-manager of the same team in the following year.</p>
-</section>
-<section id="r-experience" class="level2">
-<h2 data-anchor-id="r-experience">R experience</h2>
-<p>I attended a two week R Workshop at FLAME University where we learnt about operations in R and how to handle datasets. Additionally, I utilised R for statistical analysis in a few courses at FLAME University .<br>
-I have also been using R for text analysis, analysis of the Indian Census and American National Election Survey in my courses at the University of Massachusetts, Amherst.</p>
-</section>
-<section id="research-interests" class="level2">
-<h2 data-anchor-id="research-interests">Research interests</h2>
-<p>Migration, Gender Economics, Social Justice</p>
-</section>
-<section id="hometown" class="level2">
-<h2 data-anchor-id="hometown">Hometown</h2>
-<p>Bengaluru</p>
-</section>
-<section id="hobbies" class="level2">
-<h2 data-anchor-id="hobbies">Hobbies</h2>
-<p>I enjoy practising Karate, singing, swimming and reading books.</p>
-</section>
-<section id="fun-fact" class="level2">
-<h2 data-anchor-id="fun-fact">Fun fact</h2>
-<p>I have made a few parodies, they’re on YouTube.</p>
+  
+
+</header>
+
+<p>Here are some projects I have worked on.</p>
 
 
-</section>
-</main></div>
-    </div>
-    <img src="images/MekhalaKumar.jpeg" class="about-image
-  round " style="height: 15em; width: 15em;">
-  </div>
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Final,Migration,Reasons for Migration,Bangalore" data-listing-date-sort="1662177600000" data-listing-file-modified-sort="1662275576425" data-listing-reading-time-sort="29.445">
+<div class="body">
+<a href="./posts/Mekhala Final.html">
+<h3 class="no-anchor listing-title">
+Reasons for Migration in Bangalore (2011)
+</h3>
+<div class="listing-subtitle">
+
 </div>
- <!-- /main -->
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Final'); return false;">
+Final
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Migration'); return false;">
+Migration
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Reasons for Migration'); return false;">
+Reasons for Migration
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Bangalore'); return false;">
+Bangalore
+</div>
+</div>
+<a href="./posts/Mekhala Final.html">
+<div class="listing-description">
+<p>Final Project</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/Mekhala Final.html">
+<div class="listing-date">
+Sep 3, 2022
+</div>
+<div class="listing-author">
+Mekhala Kumar
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -299,6 +353,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   if (hasAlternateSentinel()) {
     toggleColorMode(true);
   } 
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
