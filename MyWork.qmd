@@ -11,7 +11,7 @@ Here are some projects I have worked on.
 
 [Group Project on Menstrual Awareness and Period Poverty Perception](posts/PeriodPovertyGroup.pdf)
 
-During my internship at WageIndicator Foundation, I collaborated with classmates to create various visualizations. These are the links to the same:
+During my internship at WageIndicator Foundation, I collaborated with classmates to create various visualizations. The links to the same are provided below:
 
 [Satisfaction with pay](https://wageindicator.org/salary/Salarycheckers/when-satisfied-with-pay)
 
