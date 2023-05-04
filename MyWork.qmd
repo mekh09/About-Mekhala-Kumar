@@ -1,0 +1,24 @@
+---
+title: "Mekhala Kumar"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+---
+
+Here are some projects I have worked on.
+
+[Group Project on Menstrual Awareness and Period Poverty Perception](posts/PeriodPovertyGroup.pdf)
+
+During my internship at WageIndicator Foundation, I collaborated with classmates to create various visualizations. These are the links to the same:
+
+[Satisfaction with pay](https://wageindicator.org/salary/Salarycheckers/when-satisfied-with-pay)
+
+[Food webshops across the world](https://wageindicator.org/salary/living-wage/database-access/food-web-shops-around-the-world)
+
+[Web traffic across WageIndicator sites](https://wageindicator.org/about/news/overview-wageindicator-newsletters/web-traffic-national-wageindicator-websites-2012-2019)
+
+[Comparison of Living Wages in Countries by Different Organizations](https://wageindicator.org/salary/living-wage/living-wage-comparison-wageindicator-versus-global-living-wage-coalition-and-asian-floor-wage-a-study)
+
+[Traffic, Data and Income](https://lookerstudio.google.com/u/1/reporting/d15e9cec-c6f5-4860-ad60-090249305c57/page/4U6PB)
