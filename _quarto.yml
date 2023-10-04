@@ -1,6 +1,6 @@
 project:
   type: website
-
+  output-dir: docs
 website:
   title: "Mekhala Kumar"
   site-url: https://github.com/mekh09/about-me
@@ -12,16 +12,17 @@ website:
     background: "#881c1c"
     logo: images/UMass White Wordmark Horiz.png
     right:
-      - text: "My work"
-        href: https://mekh09.github.io/About-Mekhala-Kumar/
-      - text: "About me"
-        file: about.qmd
+      - text: "About Me"
+        file: index.qmd
+      - text: "My Work"
+        file: MyWork.qmd
+      - text: "GitHub"
+        href: https://github.com/mekh09
+      - text: "LinkedIn"
+        href: https://www.linkedin.com/in/mekhala-kumar/
       - href: https://umass.edu/sbs/dacss
         text: "DACSS"
-      - icon: github
-        href: https://github.com/DACSS/DACSS_601_August2022_v2
-        aria-label: GitHub
-
+     
 execution:
   freeze: auto
 
