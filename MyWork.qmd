@@ -13,6 +13,8 @@ Here are some projects I have worked on.
 
 <a href="./posts/ky_ml_poster.pdf" target="_blank">Exploring the impact of heavy metals on depression here</a>
 
+[Effects of Public Transit, Walkability and Vehicle Ownership on Quality of Life](posts/MekhalaKumar_790Q_FinalPaper.pdf)
+
 During my internship at WageIndicator Foundation, I collaborated with classmates to create various visualizations. The links to the same are provided below:
 
 [Satisfaction with pay](https://wageindicator.org/salary/Salarycheckers/when-satisfied-with-pay)
