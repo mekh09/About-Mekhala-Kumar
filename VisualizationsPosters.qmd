@@ -1,5 +1,5 @@
 ---
-title: "Mekhala Kumar"
+title: "Posters and Visualizations"
 listing:
   contents: posts
   sort: "date desc"
