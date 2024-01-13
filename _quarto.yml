@@ -1,37 +1,24 @@
 project:
   type: website
   output-dir: docs
+
 website:
   title: "Mekhala Kumar"
-  site-url: https://github.com/mekh09/about-me
-  twitter-card:
-    creator: "@UMassDACSS"
-    site: "@UMassDACSS"
-  favicon: images/DACSS_Round_Network.png
   navbar:
-    background: "#881c1c"
-    logo: images/UMass White Wordmark Horiz.png
-    right:
-      - text: "About Me"
-        file: index.qmd
-      - text: "My Work"
-        file: MyWork.qmd
-      - text: "GitHub"
-        href: https://github.com/mekh09
-      - text: "LinkedIn"
-        href: https://www.linkedin.com/in/mekhala-kumar/
-      - href: https://umass.edu/sbs/dacss
-        text: "DACSS"
-     
-execution:
-  freeze: auto
-
+    left:
+      - href: index.qmd
+        text: Home
+      - MyWork.qmd
 
 format:
   html:
-    mainfont: Open Sans
-    linkcolor: "#881c1c"
+    theme: yeti
+    css: styles.css
     toc: true
-    theme: 
-      light: [flatly, styles.scss]
-      dark: [darkly, styles.scss]
+    mainfont: "Times New Roman"
+    fontsize: 1.25rem
+    linkcolour: "#7400b8"
+
+editor: visual
+
+
