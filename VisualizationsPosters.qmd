@@ -7,8 +7,7 @@ listing:
   categories: true
 ---
 
-Here are some projects I have worked on.
-
+Poster Presentations
 [Group Project on Menstrual Awareness and Period Poverty Perception](posts/PeriodPovertyGroup.pdf)
 
 <a href="./posts/ky_ml_poster.pdf" target="_blank">Exploring the impact of heavy metals on depression here</a>
