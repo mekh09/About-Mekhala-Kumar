@@ -1,5 +1,5 @@
 ---
-title: "Posters and Visualizations"
+title: "My Work"
 listing:
   contents: posts
   sort: "date desc"
@@ -7,13 +7,14 @@ listing:
   categories: true
 ---
 
-Poster Presentations
+### Poster Presentations
 [Group Project on Menstrual Awareness and Period Poverty Perception](posts/PeriodPovertyGroup.pdf)
 
 <a href="./posts/ky_ml_poster.pdf" target="_blank">Exploring the impact of heavy metals on depression here</a>
 
 [Effects of Public Transit, Walkability and Vehicle Ownership on Quality of Life](posts/MekhalaKumar_790Q_FinalPaper.pdf)
 
+### Visualizations
 During my internship at WageIndicator Foundation, I collaborated with classmates to create various visualizations. The links to the same are provided below:
 
 [Satisfaction with pay](https://wageindicator.org/salary/Salarycheckers/when-satisfied-with-pay)
@@ -25,3 +26,5 @@ During my internship at WageIndicator Foundation, I collaborated with classmates
 [Comparison of Living Wages in Countries by Different Organizations](https://wageindicator.org/salary/living-wage/living-wage-comparison-wageindicator-versus-global-living-wage-coalition-and-asian-floor-wage-a-study)
 
 [Traffic, Data and Income](https://lookerstudio.google.com/u/1/reporting/d15e9cec-c6f5-4860-ad60-090249305c57/page/4U6PB)
+
+### Projects in R
