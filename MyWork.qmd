@@ -12,6 +12,8 @@ listing:
 
 <a href="./posts/ky_ml_poster.pdf" target="_blank">Exploring the impact of heavy metals on depression here</a>
 
+### Papers
+
 [Effects of Public Transit, Walkability and Vehicle Ownership on Quality of Life](posts/MekhalaKumar_790Q_FinalPaper.pdf)
 
 ### Visualizations
